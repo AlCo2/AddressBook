@@ -7,7 +7,7 @@ MYSQL_ROW row;
 void connectToDatabse(){
     char* server = "localhost";
     char* user = "root";
-    char* password = "Iamalegend";
+    char* password = "*********";
     char* database = "adressbook";
     connection = mysql_init(NULL);
     if(!mysql_real_connect(connection, server, user, password, database, 3306, NULL, 0)){
